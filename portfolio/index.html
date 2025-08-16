@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Konduru Divyakeerthi | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <!-- tsParticles -->
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.9.2/tsparticles.bundle.min.js"></script>
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loading">Loading...</div>
+
+  <!-- Particle Background -->
+  <div id="particles-js"></div>
+
+  <!-- Portfolio Title Top -->
+  <div class="portfolio-top">
+    <h2 class="portfolio-title">Portfolio</h2>
+  </div>
+  <!-- Navigation bar-->
+
+  <nav class="navbar">
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Education</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li>
+      <button id="theme-toggle" aria-label="Toggle dark mode">&#9789;</button>
+    </li>
+  </ul>
+  <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+</nav>
+
+
+  <!-- Hero Section -->
+  <section class="parallax">
+    <div class="hero-content">
+      <img src="profile.jpg" alt="Profile picture" class="profile-pic" />
+      <h1><span class="big-name">KONDURU DIVYA KEERTHI</span></h1>
+      <h3 style="color:#fff; font-weight: 400; margin-bottom: 30px;">
+        Hi, I'm <span class="typed-text"></span>
+      </h3>
+      <a href="Divyakeerthi_Konduru_Resume.pdf" download class="btn">Resume</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m Konduru Divya Keerthi, a Computer Science graduate with expertise in Java, ANSI SQL, HTML, CSS, and JavaScript. I build responsive, user-friendly web applications and write clean, efficient code. My experience spans full-stack development, AI/ML projects, and data analysis, with notable work in multilingual AI tutoring platforms and predictive modeling. I enjoy solving complex problems, optimizing performance, and designing intuitive interfaces. Passionate about continuous learning, I embrace new technologies to deliver impactful and innovative solutions.
+    </p>
+    <div class="skills">
+      <h3>Skills</h3>
+      <div class="skills-row">
+        <img src="html.jpg" alt="HTML" class="skill-icon" />
+        <img src="css.jpg" alt="CSS" class="skill-icon" />
+        <img src="javascript.jpg" alt="JavaScript" class="skill-icon" />
+      </div>
+      <div class="skills-row">
+        <img src="sql.jpg" alt="SQL" class="skill-icon" />
+        <img src="java.jpg" alt="Java" class="skill-icon" />
+      </div>
+    </div>
+  </section>
+  <!-- Education Section -->
+  <section id="experience">
+    <h2>EDUCATION</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h4>Bachelor of Technology in Computer Science Engineering (AI&ML)</h4>
+        <span>2022-2026</span>
+        <p>Mohan Babu University</p>
+        <span class="edu-percentage">93% Upto 5th Sem</span>
+      </div>
+      <div class="timeline-item">
+        <h4>Intermediate-Mathematics, Physics, Chemistry</h4>
+        <span>2020-2022</span>
+        <p>Sri Chaitanya Junior College</p>
+        <span class="edu-percentage">96%</span>
+      </div>
+      <div class="timeline-item">
+        <h4>State Board of Secondary Education</h4>
+        <span>2019-2020</span>
+        <p>Allwyn mount carmel english medium high school</p>
+        <span class="edu-percentage">98%</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <div class="projects-gallery">
+      <div class="project-card">
+        <img src="project1.jpg" alt="Clone of Amazon" />
+        <div class="project-info">
+          <h3>Clone of Amazon</h3>
+          <p>
+            Developed a responsive Amazon homepage clone using HTML, CSS, and JavaScript, replicating core UI/UX elements with dynamic product rendering, interactive shopping cart, and seamless mobile navigation for an authentic e-commerce experience.
+          </p>
+          <a href="https://github.com/divya-07-04/Clone-of-Amazon.git" target="_blank" rel="noopener">Source Code</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="project2.jpg" alt="Travel ease" />
+        <div class="project-info">
+          <h3>Travel ease</h3>
+          <p>
+            A console-based Java application that lets users browse destinations, book trips based on wallet balance, and manage bookings using OOP principles, collections, and robust exception handling for an interactive travel experience.
+          </p>
+          <a href="https://github.com/divya-07-04/TravelBookingSystem.gitS" target="_blank" rel="noopener">Source Code</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="project3.jpg" alt="Fake news detection" />
+        <div class="project-info">
+          <h3>Fake News Detection</h3>
+          <p>
+            A machine learning model that detects fake news by analyzing and classifying news articles using natural language processing. This project helped me apply data science techniques to combat misinformation effectively.
+          </p>
+          <a href="https://github.com/divya-07-04/Fakenewsdetection" target="_blank" rel="noopener">Source Code</a>
+        </div>
+      </div>
+    </div>
+    <div id="github-repos">
+      <h3>Latest GitHub Repos</h3>
+      <ul id="repo-list"></ul>
+    </div>
+  </section>
+
+
+  <section id="certifications">
+  <h2>Certifications</h2>
+  <div class="cert-list-vertical">
+    <a href="https://drive.google.com/file/d/1OxdT_VLMQXMokoru8XFTaGuJvWVMOPGV/view" target="_blank" class="cert-item-vertical" title="Java Certification">
+      <img src="java.jpg" alt="Java Certificate" class="cert-icon-vertical" />
+      <span>Java Programming certification</span>
+    </a>
+    <a href="https://drive.google.com/file/d/12Ea1oWCQtv9Xj1_r08Lbk7hjBKs5vzh9/view" target="_blank" class="cert-item-vertical" title="CSA Certification">
+      <img src="servicenow.jpg" alt="CSA Certificate" class="cert-icon-vertical" />
+      <span>ServiceNow Certified System Administrator(CSA)</span>
+    </a>
+    <!-- Add more certificates as needed -->
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+      <div class="form-status"></div>
+    </form>
+    <div class="contact-links">
+      <a href="mailto:divyavarma2122@gmail.com" target="_blank" title="Email"
+        ><img src="gmail.jpg" alt="Email" class="contact-icon" />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/divya-keerthi-konduru-886131249/"
+        target="_blank"
+        title="LinkedIn"
+        ><img src="linkedln.jpg" alt="LinkedIn" class="contact-icon"
+      /></a>
+      <a href="https://github.com/divya-07-04" target="_blank" title="GitHub"
+        ><img src="git.jpg" alt="GitHub" class="contact-icon"
+      /></a>
+    </div>
+  </section>
+
+  <!-- Scroll to Top Button -->
+  <button id="scroll-top" title="Go to top">↑</button>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Konduru Divya Keerthi. All rights reserved.</p>
+  </footer>
+
+  <!-- Custom Cursor -->
+  <div class="cursor"></div>
+</body>
+</html>
