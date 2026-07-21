@@ -1,308 +1,1134 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Konduru Divya Keerthi | Software Developer</title>
+<title>Konduru Divya Keerthi | Portfolio</title>
+
+<meta name="description"
+content="Portfolio of Konduru Divya Keerthi - Software Developer | Full Stack Developer | Data Analyst | AI & ML Engineer">
+
+<meta name="keywords"
+content="Java, Spring Boot, Full Stack, Machine Learning, Portfolio">
 
 <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 
-<link
-rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
 
 <link
 href="https://unpkg.com/aos@2.3.4/dist/aos.css"
 rel="stylesheet"/>
 
 <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+
 </head>
 
 <body>
 
-<!-- Loading Screen -->
+<!--==============================
+LOADER
+===============================-->
+
 <div id="loading-screen">
+
 <div class="loader"></div>
+
 </div>
 
-<!-- Particle Background -->
+<!--==============================
+PARTICLE BACKGROUND
+===============================-->
+
 <div id="particles-js"></div>
 
-<!-- Scroll Top -->
+<!--==============================
+SCROLL TO TOP
+===============================-->
+
 <button id="scrollTop">
+
 <i class="fas fa-arrow-up"></i>
+
 </button>
 
-<!-- Navbar -->
+<!--==============================
+HEADER
+===============================-->
+
+<header>
+
 <nav class="navbar">
 
 <div class="logo">
+
 DK
+
 </div>
 
 <ul class="nav-links">
+
+<li><a href="#home">Home</a></li>
+
 <li><a href="#about">About</a></li>
+
 <li><a href="#skills">Skills</a></li>
-<li><a href="#education">Education</a></li>
+
 <li><a href="#projects">Projects</a></li>
+
+<li><a href="#experience">Experience</a></li>
+
+<li><a href="#education">Education</a></li>
+
 <li><a href="#certifications">Certificates</a></li>
+
 <li><a href="#contact">Contact</a></li>
+
 </ul>
 
 <div class="nav-buttons">
+
 <button id="themeToggle">
+
 <i class="fas fa-moon"></i>
+
 </button>
 
 <div class="hamburger">
+
 <span></span>
+
 <span></span>
+
 <span></span>
+
 </div>
+
 </div>
 
 </nav>
 
-<!-- Hero Section -->
+</header>
 
-<section class="hero">
+<!--==============================
+HERO
+===============================-->
 
-<div class="hero-content" data-aos="fade-right">
+<section class="hero" id="home">
 
-<img src="Profile.jpg" alt="Profile" class="profile-pic">
+<div class="hero-left" data-aos="fade-right">
 
 <h3>Hello, I'm</h3>
 
 <h1>Konduru Divya Keerthi</h1>
 
 <h2>
+
 <span id="typing"></span>
+
 </h2>
 
 <p>
-Computer Science Engineering (AI & ML) graduate with strong expertise in Java,
-Spring Boot, SQL, REST APIs, Full Stack Development and scalable software solutions.
+
+Computer Science Engineering (AI & ML) graduate passionate about
+building scalable software solutions, developing intelligent
+applications, analyzing data, and creating impactful digital
+experiences using modern technologies.
+
 </p>
 
-<div class="hero-buttons">
-
-<a href="Konduru_Divya_Keerthi_Resume.pdf"
-download
-class="btn primary-btn">
-Download Resume
-</a>
 
 <a href="https://github.com/divya-07-04"
 target="_blank"
 class="btn secondary-btn">
+
 GitHub
+
 </a>
 
 <a href="https://www.linkedin.com/in/divya-keerthi-konduru-886131249/"
 target="_blank"
 class="btn secondary-btn">
+
 LinkedIn
+
+</a>
+
+</div>
+
+<div class="hero-social">
+
+<a href="mailto:divyavarma2122@gmail.com">
+
+<i class="fas fa-envelope"></i>
+
+</a>
+
+<a href="https://github.com/divya-07-04">
+
+<i class="fab fa-github"></i>
+
+</a>
+
+<a href="https://www.linkedin.com/in/divya-keerthi-konduru-886131249/">
+
+<i class="fab fa-linkedin"></i>
+
 </a>
 
 </div>
 
 </div>
 
+<div class="hero-right"
+data-aos="fade-left">
+
+<img src="Profile.jpg"
+alt="Profile"
+class="profile-pic">
+
+</div>
+
 </section>
 
-<!-- About -->
+<!--==============================
+STATISTICS
+===============================-->
 
-<section id="about" data-aos="fade-up">
+<section class="stats">
 
-<h2 class="section-title">About Me</h2>
+<div class="stat-card">
 
-<div class="glass-card">
+<h2 class="counter"
+data-target="10">0</h2>
+
+<p>Projects</p>
+
+</div>
+
+<div class="stat-card">
+
+<h2 class="counter"
+data-target="12">0</h2>
+
+<p>Technologies</p>
+
+</div>
+
+<div class="stat-card">
+
+<h2 class="counter"
+data-target="93">0</h2>
+
+<p>CGPA %</p>
+
+</div>
+
+<div class="stat-card">
+
+<h2 class="counter"
+data-target="95">0</h2>
+
+<p>ML Accuracy</p>
+
+</div>
+
+</section>
+
+<!--==============================
+ABOUT
+===============================-->
+
+<section id="about">
+
+<h2 class="section-title">
+
+About Me
+
+</h2>
+
+<div class="glass-card"
+data-aos="fade-up">
 
 <p>
-Computer Science Engineering graduate passionate about building modern software solutions.
-Experienced in Java, Spring Boot, SQL, REST API Development and Full Stack Applications.
-Strong foundation in Object-Oriented Programming, Database Design, Debugging and Problem Solving.
 
-I enjoy transforming ideas into real-world software products and continuously learning
-new technologies to become a better Software Engineer.
+I am a Computer Science Engineering graduate specializing in Artificial
+Intelligence and Machine Learning. My interests span Software Development,
+Java Backend Engineering, Full Stack Development, Data Analytics,
+Machine Learning, REST API Development, and Database Design.
+
+</p>
+
+<br>
+
+<p>
+
+I enjoy solving real-world problems through technology and continuously
+improving my skills by building projects, learning modern frameworks,
+and exploring emerging technologies.
+
 </p>
 
 </div>
 
 </section>
 
-<!-- Skills -->
+<!--==============================
+SKILLS
+===============================-->
 
 <section id="skills">
 
-<h2 class="section-title">Technical Skills</h2>
+<h2 class="section-title">
+
+Technical Skills
+
+</h2>
+
+<div class="skills-container">
+
+<div class="skill-category">
+
+<h3>
+
+<i class="fas fa-code"></i>
+
+Programming
+
+</h3>
 
 <div class="skills-grid">
 
 <div class="skill-card">Java</div>
-<div class="skill-card">Spring Boot</div>
-<div class="skill-card">REST APIs</div>
-<div class="skill-card">SQL</div>
-<div class="skill-card">MySQL</div>
+
 <div class="skill-card">Python</div>
-<div class="skill-card">HTML</div>
-<div class="skill-card">CSS</div>
+
+<div class="skill-card">SQL</div>
+
 <div class="skill-card">JavaScript</div>
+
+</div>
+
+</div>
+
+<div class="skill-category">
+
+<h3>
+
+<i class="fas fa-server"></i>
+
+Backend
+
+</h3>
+
+<div class="skills-grid">
+
+<div class="skill-card">
+
+Spring Boot
+
+</div>
+
+<div class="skill-card">
+
+REST APIs
+
+</div>
+
+<div class="skill-card">
+
+Flask
+
+</div>
+
+<div class="skill-card">
+
+Hibernate
+
+</div>
+
+</div>
+
+</div>
+
+<div class="skill-category">
+
+<h3>
+
+<i class="fas fa-desktop"></i>
+
+Frontend
+
+</h3>
+
+<div class="skills-grid">
+
+<div class="skill-card">HTML</div>
+
+<div class="skill-card">CSS</div>
+
+
+</div>
+
+</div>
+<div class="skill-category">
+
+<h3>
+
+<i class="fas fa-database"></i>
+
+Database
+
+</h3>
+
+<div class="skills-grid">
+
+<div class="skill-card">MySQL</div>
+
+<div class="skill-card">SQL Server</div>
+
+<div class="skill-card">Database Design</div>
+
+<div class="skill-card">JDBC</div>
+
+</div>
+
+</div>
+
+<div class="skill-category">
+
+<h3>
+
+<i class="fas fa-chart-line"></i>
+
+Data Analytics
+
+</h3>
+
+<div class="skills-grid">
+
+<div class="skill-card">Power BI</div>
+
+<div class="skill-card">Excel</div>
+
+<div class="skill-card">Pandas</div>
+
+<div class="skill-card">NumPy</div>
+
+</div>
+
+</div>
+
+<div class="skill-category">
+
+<h3>
+
+<i class="fas fa-brain"></i>
+
+AI & Machine Learning
+
+</h3>
+
+<div class="skills-grid">
+
+<div class="skill-card">Scikit-Learn</div>
+
+<div class="skill-card">TensorFlow</div>
+
+<div class="skill-card">PyTorch</div>
+
+<div class="skill-card">NLP</div>
+
+</div>
+
+</div>
+
+<div class="skill-category">
+
+<h3>
+
+<i class="fas fa-tools"></i>
+
+Tools
+
+</h3>
+
+<div class="skills-grid">
+
 <div class="skill-card">Git</div>
+
 <div class="skill-card">GitHub</div>
+
 <div class="skill-card">Postman</div>
+
+<div class="skill-card">VS Code</div>
+
+<div class="skill-card">Eclipse</div>
+
+<div class="skill-card">Maven</div>
+
+</div>
+
+</div>
 
 </div>
 
 </section>
 
-<!-- Education -->
+<!-- =========================
+FEATURED PROJECTS
+========================= -->
 
-<section id="education">
+<section id="projects">
 
-<h2 class="section-title">Education</h2>
+<h2 class="section-title">
+
+Featured Projects
+
+</h2>
+
+<div class="project-grid">
+
+<div class="project-card" data-aos="zoom-in">
+
+<img src="task.jpg" alt="Student Task Manager">
+
+<div class="project-content">
+
+<h3>
+
+Student Task Manager
+
+</h3>
+
+<p>
+
+A full-stack task management application built using Java,
+Spring Boot, MySQL and REST APIs with secure CRUD operations.
+
+</p>
+
+<div class="tech-stack">
+
+<span>Java</span>
+
+<span>Spring Boot</span>
+
+<span>REST API</span>
+
+<span>MySQL</span>
+
+</div>
+
+<div class="project-buttons">
+
+<a href="https://github.com/divya-07-04/TaskManager.git"
+target="_blank">
+
+GitHub
+
+</a>
+
+
+</div>
+
+</div>
+
+</div>
+
+<div class="project-card" data-aos="zoom-in">
+
+<img src="project2.jpg" alt="TravelEase">
+
+<div class="project-content">
+
+<h3>
+
+TravelEase
+
+</h3>
+
+<p>
+
+Java-based travel booking application implementing
+Object-Oriented Programming, Collections Framework,
+and Exception Handling.
+
+</p>
+
+<div class="tech-stack">
+
+<span>Java</span>
+
+<span>Collections</span>
+
+<span>OOP</span>
+
+<span>Exception</span>
+
+</div>
+
+<div class="project-buttons">
+
+<a href="https://github.com/divya-07-04/TravelBookingSystem.git"
+target="_blank">
+
+GitHub
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="project-card" data-aos="zoom-in">
+
+<img src="hepatitis.jpg" alt="Hepatitis">
+
+<div class="project-content">
+
+<h3>
+
+Hybrid Hepatitis Detection
+
+</h3>
+
+<p>
+
+Machine Learning based disease detection system
+combining clinical and image data achieving
+95% accuracy.
+
+</p>
+
+<div class="tech-stack">
+
+<span>Python</span>
+
+<span>TensorFlow</span>
+
+<span>CNN</span>
+
+<span>ML</span>
+
+</div>
+
+<div class="project-buttons">
+
+<a href="https://github.com/divya-07-04/HepatitisC.git"
+target="_blank">
+
+GitHub
+
+</a>
+
+
+</div>
+
+</div>
+
+</div>
+
+<div class="project-card" data-aos="zoom-in">
+
+<img src="images.png" alt="Dashboard">
+
+<div class="project-content">
+
+<h3>
+
+Customer Churn Analysis
+
+</h3>
+
+<p>
+
+Analyzed customer behavior using Python,
+Power BI and Machine Learning models
+to identify churn trends.
+
+</p>
+
+<div class="tech-stack">
+
+<span>Power BI</span>
+
+<span>Python</span>
+
+<span>Pandas</span>
+
+<span>SQL</span>
+
+</div>
+
+<div class="project-buttons">
+
+<a href="https://github.com/divya-07-04/Retail-Customer-Behavior-Analytics.git"
+target="_blank">
+
+GitHub
+
+</a>
+
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =========================
+EXPERIENCE
+========================= -->
+
+<section id="experience">
+
+<h2 class="section-title">
+
+Experience
+
+</h2>
 
 <div class="timeline">
 
 <div class="timeline-item">
-<h3>B.Tech CSE (AI & ML)</h3>
-<p>Mohan Babu University</p>
-<span>CGPA: 9.3</span>
+
+<h3>
+
+Academic Software Projects
+
+</h3>
+
+<span>
+
+2022 – 2026
+
+</span>
+
+<p>
+
+Developed multiple Java, Spring Boot,
+Python and Machine Learning applications,
+focusing on backend systems, REST APIs,
+database integration and AI solutions.
+
+</p>
+
 </div>
 
 <div class="timeline-item">
-<h3>Intermediate MPC</h3>
-<p>Sri Chaitanya Junior College</p>
-<span>96%</span>
-</div>
 
-<div class="timeline-item">
-<h3>SSC</h3>
-<p>Allwyn Mount Carmel English Medium High School</p>
-<span>98.5%</span>
+<h3>
+
+ServiceNow CSA
+
+</h3>
+
+<span>
+
+Certified
+
+</span>
+
+<p>
+
+Certified System Administrator with
+knowledge of ITSM workflows,
+incident management and platform customization.
+
+</p>
+
 </div>
 
 </div>
 
 </section>
 
-<!-- Projects -->
+<!-- =========================
+EDUCATION
+========================= -->
 
-<section id="projects">
+<section id="education">
 
-<h2 class="section-title">Featured Projects</h2>
+<h2 class="section-title">
 
-<div class="project-grid">
+Education
 
-<div class="project-card">
-<img src="task.jpg">
-<h3>Student Task Manager</h3>
+</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+
+<h3>
+
+B.Tech – Computer Science Engineering (AI & ML)
+
+</h3>
+
 <p>
-Full Stack Application using Spring Boot and MySQL.
-Task creation, tracking, deletion and REST API integration.
+
+Mohan Babu University
+
 </p>
+
+<span>
+
+CGPA : 9.3
+
+</span>
+
 </div>
 
-<div class="project-card">
-<img src="project2.jpg">
-<h3>TravelEase</h3>
+<div class="timeline-item">
+
+<h3>
+
+Intermediate
+
+</h3>
+
 <p>
-Java-based travel booking system implementing OOP,
-Collections Framework and Exception Handling.
+
+Sri Chaitanya Junior College
+
 </p>
+
+<span>
+
+96%
+
+</span>
+
 </div>
 
-<div class="project-card">
-<img src="hepatitis.jpg">
-<h3>Hepatitis Detection System</h3>
+<div class="timeline-item">
+
+<h3>
+
+SSC
+
+</h3>
+
 <p>
-Machine Learning based disease stage classification
-achieving 95% accuracy.
+
+Allwyn Mount Carmel English Medium School
+
 </p>
+
+<span>
+
+98.5%
+
+</span>
+
+</div>
+
+</div>
+
+</section>
+<!-- =========================
+ACHIEVEMENTS
+========================= -->
+
+<section id="achievements">
+
+<h2 class="section-title">
+Achievements
+</h2>
+
+<div class="achievement-grid">
+
+<div class="achievement-card" data-aos="fade-up">
+<i class="fas fa-graduation-cap"></i>
+<h3>9.3 CGPA</h3>
+<p>Maintained excellent academic performance throughout B.Tech.</p>
+</div>
+
+<div class="achievement-card" data-aos="fade-up">
+<i class="fas fa-project-diagram"></i>
+<h3>10+ Projects</h3>
+<p>Developed software, machine learning, and data analytics projects.</p>
+</div>
+
+<div class="achievement-card" data-aos="fade-up">
+<i class="fas fa-certificate"></i>
+<h3>ServiceNow CSA</h3>
+<p>Certified System Administrator with ITSM knowledge.</p>
+</div>
+
+<div class="achievement-card" data-aos="fade-up">
+<i class="fas fa-chart-line"></i>
+<h3>95% Accuracy</h3>
+<p>Hybrid Deep Learning model for Hepatitis Detection.</p>
 </div>
 
 </div>
 
 </section>
 
-<!-- GitHub -->
+<!-- =========================
+LATEST GITHUB PROJECTS
+========================= -->
 
 <section id="github">
 
-<h2 class="section-title">Latest GitHub Repositories</h2>
+<h2 class="section-title">
+Latest GitHub Projects
+</h2>
 
-<ul id="repo-list"></ul>
+<div id="repo-list" class="repo-grid">
 
-</section>
-
-<!-- Certifications -->
-
-<section id="certifications">
-
-<h2 class="section-title">Certifications</h2>
-
-<div class="cert-grid">
-
-<a href="#" class="cert-card">
-Java Programming Certification
-</a>
-
-<a href="#" class="cert-card">
-ServiceNow CSA Certification
-</a>
+<!-- Filled Automatically -->
 
 </div>
 
 </section>
 
-<!-- Contact -->
+<!-- =========================
+CERTIFICATIONS
+========================= -->
+
+<section id="certifications">
+
+<h2 class="section-title">
+Certifications
+</h2>
+
+<div class="cert-grid">
+
+<div class="cert-card">
+    <i class="fab fa-java"></i>
+    <h3>Java Programming</h3>
+    <p>Infosys Springboard</p>
+    <a href="https://drive.google.com/file/d/1OxdT_VLMQXMokoru8XFTaGuJvWVMOPGV/view?usp=sharing"
+       target="_blank"
+       rel="noopener noreferrer">
+        View Certificate
+    </a>
+</div>
+
+<div class="cert-card">
+<i class="fas fa-server"></i>
+<h3>ServiceNow CSA</h3>
+<p>Certified System Administrator</p>
+<a href="https://drive.google.com/file/d/12Ea1oWCQtv9Xj1_r08Lbk7hjBKs5vzh9/view?usp=sharing"
+   target="_blank"
+   rel="noopener noreferrer">
+    View Certificate
+</a>
+</div>
+
+<div class="cert-card">
+<i class="fab fa-python"></i>
+<h3>Python Essentials</h3>
+<p>Cisco Networking Academy</p>
+<a href="https://www.credly.com/badges/d5a5b917-3526-4b04-a239-9ba578468ce6/public_url"
+   target="_blank"
+   rel="noopener noreferrer">
+    View Certificate
+</a>
+</div>
+
+
+
+</div>
+
+</section>
+
+
+<!-- =========================
+CONTACT
+========================= -->
 
 <section id="contact">
 
-<h2 class="section-title">Contact Me</h2>
+<h2 class="section-title">
+
+Let's Connect
+
+</h2>
+
+<div class="contact-container">
+
+<div class="contact-info">
+
+<h3>
+
+Get in Touch
+
+</h3>
+
+<p>
+
+I am actively looking for opportunities in
+
+Software Development,
+
+Java Backend,
+
+Full Stack Development,
+
+Data Analytics,
+
+and AI & Machine Learning.
+
+</p>
+
+<div class="contact-item">
+
+<i class="fas fa-envelope"></i>
+
+<span>
+
+divyavarma2122@gmail.com
+
+</span>
+
+</div>
+
+<div class="contact-item">
+
+<i class="fab fa-github"></i>
+
+<a href="https://github.com/divya-07-04">
+
+github.com/divya-07-04
+
+</a>
+
+</div>
+
+<div class="contact-item">
+
+<i class="fab fa-linkedin"></i>
+
+<a href="https://www.linkedin.com/in/divya-keerthi-konduru-886131249/">
+
+LinkedIn Profile
+
+</a>
+
+</div>
+
+</div>
 
 <form id="contactForm">
 
-<input type="text" placeholder="Your Name" required>
+<input
+type="text"
+placeholder="Your Name"
+required>
 
-<input type="email" placeholder="Your Email" required>
+<input
+type="email"
+placeholder="Your Email"
+required>
 
-<textarea rows="5" placeholder="Your Message"></textarea>
+<input
+type="text"
+placeholder="Subject"
+required>
 
-<button type="submit" class="btn primary-btn">
+<textarea
+rows="6"
+placeholder="Your Message"
+required>
+</textarea>
+
+<button
+type="submit"
+class="btn primary-btn">
+
 Send Message
+
 </button>
 
 </form>
 
-<div class="social-links">
-
-<a href="mailto:divyavarma2122@gmail.com">
-<i class="fas fa-envelope"></i>
-</a>
-
-<a href="https://github.com/divya-07-04">
-<i class="fab fa-github"></i>
-</a>
-
-<a href="https://linkedin.com">
-<i class="fab fa-linkedin"></i>
-</a>
-
 </div>
 
 </section>
 
+<!-- =========================
+FOOTER
+========================= -->
+
 <footer>
-<p>© 2026 Konduru Divya Keerthi | Software Developer</p>
+
+<div class="footer-content">
+
+<h2>
+
+Konduru Divya Keerthi
+
+</h2>
+
+<p>
+
+Software Developer • Full Stack Developer • Data Analyst • AI & ML Engineer
+
+</p>
+
+<div class="footer-social">
+
+<a href="mailto:divyavarma2122@gmail.com">
+
+<i class="fas fa-envelope"></i>
+
+</a>
+
+<a href="https://github.com/divya-07-04">
+
+<i class="fab fa-github"></i>
+
+</a>
+
+<a href="https://www.linkedin.com/in/divya-keerthi-konduru-886131249/">
+
+<i class="fab fa-linkedin"></i>
+
+</a>
+
+</div>
+
+<p class="copyright">
+
+© 2026 Konduru Divya Keerthi. All Rights Reserved.
+
+</p>
+
+</div>
+
 </footer>
 
+<!-- =========================
+SCRIPTS
+========================= -->
+
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
 <script src="script.js"></script>
 
 </body>
+
 </html>
